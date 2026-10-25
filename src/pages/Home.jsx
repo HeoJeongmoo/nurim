@@ -196,7 +196,7 @@ export default function Home() {
             {/* 예배 안내 */}
             <NavLink
               to="/worship/sunday"
-              className="group flex min-h-[230px] flex-col items-center justify-between rounded-[2.5rem] border border-slate-200/80 bg-white px-4 py-7 text-center shadow-[0_8px_30px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-amber-300 hover:shadow-[0_16px_35px_rgba(15,23,42,0.08)] sm:min-h-[270px] sm:rounded-[3rem] sm:px-5 sm:py-8"
+              className="group flex min-h-[400px] flex-col items-center justify-between rounded-full border border-slate-200/80 bg-white px-4 py-7 text-center shadow-[0_8px_30px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-amber-300 hover:shadow-[0_16px_35px_rgba(15,23,42,0.08)] sm:min-h-[270px] sm:px-5 sm:py-8"
             >
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-amber-50 text-amber-600 transition-colors duration-300 group-hover:bg-amber-500 group-hover:text-white sm:h-20 sm:w-20">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="h-8 w-8 sm:h-9 sm:w-9">
@@ -217,7 +217,7 @@ export default function Home() {
             {/* 설교 말씀 */}
             <NavLink
               to="/sermon/thisweek"
-              className="group flex min-h-[230px] flex-col items-center justify-between rounded-[2.5rem] border border-slate-200/80 bg-white px-4 py-7 text-center shadow-[0_8px_30px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-amber-300 hover:shadow-[0_16px_35px_rgba(15,23,42,0.08)] sm:min-h-[270px] sm:rounded-[3rem] sm:px-5 sm:py-8"
+              className="group flex min-h-[400px] flex-col items-center justify-between rounded-full border border-slate-200/80 bg-white px-4 py-7 text-center shadow-[0_8px_30px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-amber-300 hover:shadow-[0_16px_35px_rgba(15,23,42,0.08)] sm:min-h-[270px] sm:px-5 sm:py-8"
             >
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-amber-50 text-amber-600 transition-colors duration-300 group-hover:bg-amber-500 group-hover:text-white sm:h-20 sm:w-20">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="h-8 w-8 sm:h-9 sm:w-9">
@@ -238,7 +238,7 @@ export default function Home() {
             {/* 선교비전 */}
             <NavLink
               to="/mission/vision"
-              className="group flex min-h-[230px] flex-col items-center justify-between rounded-[2.5rem] border border-slate-200/80 bg-white px-4 py-7 text-center shadow-[0_8px_30px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-amber-300 hover:shadow-[0_16px_35px_rgba(15,23,42,0.08)] sm:min-h-[270px] sm:rounded-[3rem] sm:px-5 sm:py-8"
+              className="group flex min-h-[400px] flex-col items-center justify-between rounded-full border border-slate-200/80 bg-white px-4 py-7 text-center shadow-[0_8px_30px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-amber-300 hover:shadow-[0_16px_35px_rgba(15,23,42,0.08)] sm:min-h-[270px] sm:px-5 sm:py-8"
             >
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-amber-50 text-amber-600 transition-colors duration-300 group-hover:bg-amber-500 group-hover:text-white sm:h-20 sm:w-20">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="h-8 w-8 sm:h-9 sm:w-9">
@@ -260,7 +260,7 @@ export default function Home() {
             {/* 온라인 헌금 */}
             <NavLink
               to="/offering"
-              className="group flex min-h-[230px] flex-col items-center justify-between rounded-[2.5rem] border border-slate-200/80 bg-white px-4 py-7 text-center shadow-[0_8px_30px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-amber-300 hover:shadow-[0_16px_35px_rgba(15,23,42,0.08)] sm:min-h-[270px] sm:rounded-[3rem] sm:px-5 sm:py-8"
+              className="group flex min-h-[400px] flex-col items-center justify-between rounded-full border border-slate-200/80 bg-white px-4 py-7 text-center shadow-[0_8px_30px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-amber-300 hover:shadow-[0_16px_35px_rgba(15,23,42,0.08)] sm:min-h-[270px] sm:px-5 sm:py-8"
             >
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-amber-50 text-amber-600 transition-colors duration-300 group-hover:bg-amber-500 group-hover:text-white sm:h-20 sm:w-20">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="h-8 w-8 sm:h-9 sm:w-9">
@@ -282,7 +282,7 @@ export default function Home() {
             {/* 오시는 길 */}
             <NavLink
               to="/location"
-              className="group flex min-h-[230px] flex-col items-center justify-between rounded-[2.5rem] border border-slate-200/80 bg-white px-4 py-7 text-center shadow-[0_8px_30px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-amber-300 hover:shadow-[0_16px_35px_rgba(15,23,42,0.08)] sm:min-h-[270px] sm:rounded-[3rem] sm:px-5 sm:py-8"
+              className="group flex min-h-[400px] flex-col items-center justify-between rounded-full border border-slate-200/80 bg-white px-4 py-7 text-center shadow-[0_8px_30px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-amber-300 hover:shadow-[0_16px_35px_rgba(15,23,42,0.08)] sm:min-h-[270px] sm:px-5 sm:py-8"
             >
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-amber-50 text-amber-600 transition-colors duration-300 group-hover:bg-amber-500 group-hover:text-white sm:h-20 sm:w-20">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="h-8 w-8 sm:h-9 sm:w-9">
